@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    position: fixed;
+    background-color: black;
+    padding-bottom: 100%;
+    max-width: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: #888;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.menu > a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+#x {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: red;
+    font-size: 18px;
+}
+
+#x:hover {
+    cursor: pointer;
+}
+
+.menu_icon {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#buttonOpenMenu {
+    outline: none;
+    border: none;
+    background-color: black;
+    color: #888;
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    font-size: 30px;
+    transition: all 0.5s;
+}
+
+#buttonOpenMenu:hover {
+    color: white;
+    transition: 0.5s;
+}
